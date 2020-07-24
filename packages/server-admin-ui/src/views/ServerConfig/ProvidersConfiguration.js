@@ -25,6 +25,7 @@ import {
 } from 'reactstrap'
 
 import BasicProvider from './BasicProvider'
+import SourcePreferences from './SourcePreferences'
 import { set } from 'lodash'
 
 function fetchProviders () {
@@ -387,6 +388,8 @@ class ProvidersConfiguration extends Component {
             </Card>
           </div>
         )}
+
+        <SourcePreferences/>
       </div>
     )
   }
