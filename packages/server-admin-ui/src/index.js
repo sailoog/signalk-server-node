@@ -58,7 +58,8 @@ const state = {
     debugEnabled: [],
     rememberDebug: false
   },
-  restoreStatus: {}
+  restoreStatus: {},
+  sourcePriorities: {}
 }
 
 let store = createStore(
